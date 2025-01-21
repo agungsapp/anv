@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes flicker {
+  0%, 100% {
+    opacity: 1;
+    filter: brightness(100%);
+  }
+  50% {
+    opacity: 0.8;
+    filter: brightness(90%);
+  }
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-10vh) rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
+
+@keyframes message-appear {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes message-line {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out forwards;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-flicker {
+  animation: flicker 3s infinite;
+}
+
+.animate-message-appear {
+  animation: message-appear 1s ease-out forwards;
+}
+
+.animate-message-line {
+  opacity: 0;
+  animation: message-line 1s ease-out forwards;
+}
+
+.petal {
+  position: fixed;
+  z-index: 10;
+  pointer-events: none;
+  animation: fall linear forwards;
+}
