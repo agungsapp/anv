@@ -17,7 +17,7 @@ function App() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   // Set anniversary date to January 22, 2025
-  const targetDate = new Date('2025-01-22T00:00:00');
+  const targetDate = new Date('2025-01-21T00:00:00');
 
   useEffect(() => {
     // Check if we're past the target date
@@ -256,7 +256,7 @@ function App() {
                 Makasih sudah bertahan sejauh ini, menerima, dan jadi penyemangat 💪✨, selalu memberikan support. You are the best 🏆! Meski agak galak 😜, tapi di baliknya ada perhatian yang segede kebon 🌳💕 hahaha. Lop lop 🥰.
               </p>
               <p className="text-gray-700 leading-relaxed text-base sm:text-lg whitespace-pre-line animate-message-line" style={{ animationDelay: '3s' }}>
-                Pokoknya jangan sering sedih ya 😔, I'm stay with you 🤗💖.
+                Pokoknya jangan sering sedih ya 😔, I’m stay with you 🤗💖. Semangat ya skripsianya 🎓💼, aku bantu support healing 🏞️ hihihi, soalnya kerja ini 🧑‍💻 huhu. Gini ya kalau cowoknya programmer 😅, jadinya lewat web kalau jauh hahaha 💻🌐.
               </p>
             </div>
           </div>
