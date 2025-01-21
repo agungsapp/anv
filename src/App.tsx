@@ -17,7 +17,7 @@ function App() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   // Set anniversary date to January 22, 2025
-  const targetDate = new Date('2025-01-21T00:00:00');
+  const targetDate = new Date('2025-01-22T00:00:00');
 
   useEffect(() => {
     // Check if we're past the target date
