@@ -91,13 +91,18 @@ function App() {
     }
   };
 
+  // public/galeri/1.jpeg 
+  // sampai 5.jpeg
+
   const photos = [
-    "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=500",
-    "https://images.unsplash.com/photo-1622495966027-e0173192c728?w=500",
-    "https://images.unsplash.com/photo-1583157048761-ac1867d1af7a?w=500",
-    "https://images.unsplash.com/photo-1621252179027-94459d278660?w=500",
-    "https://images.unsplash.com/photo-1519307212971-dd9561667ffb?w=500"
+    "/galeri/1.jpeg",
+    "/galeri/2.jpeg",
+    "/galeri/3.jpeg",
+    "/galeri/4.jpeg",
+    "/galeri/5.jpeg",
+    "/galeri/6.jpeg"
   ];
+  
 
   return (
     <div className="min-h-screen bg-pink-50 relative overflow-hidden">
